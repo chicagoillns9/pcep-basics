@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Run Jupyter Notebook Cell",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--ip=127.0.0.1", "--port=8888"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
