@@ -1,0 +1,40 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.dist/
+build/
+dist/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Editors/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & junk ---
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- Jupyter (if you add notebooks) ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Test/coverage (future-proof) ---
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
